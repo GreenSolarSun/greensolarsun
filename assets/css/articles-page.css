@@ -1,0 +1,96 @@
+/* Page Articles - Design et filtres par catégorie */
+.articles-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  padding: 1rem 0;
+}
+.articles-filter-bar .filter-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-deepTealGreen, #0a5f4a);
+  background: transparent;
+  color: var(--color-deepTealGreen, #0a5f4a);
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.articles-filter-bar .filter-btn:hover,
+.articles-filter-bar .filter-btn.active {
+  background: var(--color-deepTealGreen, #0a5f4a);
+  color: #fff;
+  transform: translateY(-1px);
+}
+.article-card-filterable {
+  transition: opacity 0.3s ease;
+}
+.article-card-filterable.hidden {
+  display: none !important;
+}
+.articles-grid {
+  position: relative;
+  --bs-gutter-x: 2.5rem;
+  --bs-gutter-y: 2.5rem;
+}
+
+/* Espacement vertical entre les cartes encadrées */
+.articles-grid .article-card-filterable .blog-card.encadrement-vert {
+  margin-bottom: 2.5rem;
+}
+.articles-count {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+.article-card-filterable .blog-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.article-card-filterable .blog-card-img {
+  flex-shrink: 0;
+  min-height: 200px;
+  overflow: hidden;
+}
+.article-card-filterable .blog-card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.article-card-filterable .blog-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.article-card-filterable .blog-card:hover {
+  box-shadow: 0 12px 40px rgba(10, 95, 74, 0.12);
+  transform: translateY(-4px);
+}
+
+/* Bouton "Lire l'article" bien visible */
+.article-card-filterable .blog-card-content .link-anime.v4 {
+  color: #07bc4c !important;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(7, 188, 76, 0.1);
+  border: 2px solid #07bc4c;
+  border-radius: 2rem;
+  display: inline-block;
+  margin-top: 0.75rem;
+  transition: all 0.25s ease;
+}
+.article-card-filterable .blog-card-content .link-anime.v4:hover {
+  background: #07bc4c;
+  color: #fff !important;
+  box-shadow: 0 4px 14px rgba(7, 188, 76, 0.35);
+}
+.article-card-filterable .blog-card-content .link-anime.v4 i {
+  color: inherit;
+  margin-left: 0.25rem;
+}

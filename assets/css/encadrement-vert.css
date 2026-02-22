@@ -1,0 +1,35 @@
+/*
+ * Encadrement vert - sous-blocs (style page d'accueil)
+ * Usage : ajouter la classe .encadrement-vert à un conteneur pour l'encadrer
+ * sans modifier ni décaler le contenu.
+ */
+.encadrement-vert {
+    border: 3px solid #07bc4c;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, rgba(7, 188, 76, 0.02), rgba(7, 188, 76, 0.05));
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Éviter double marge quand plusieurs blocs se suivent */
+.encadrement-vert + .encadrement-vert {
+    margin-top: 0;
+}
+
+/* Contenir images et éléments graphiques dans l'encadrement (ex. page à-propos) */
+.encadrement-vert .box-imgs,
+.encadrement-vert .big-img {
+    overflow: hidden;
+    max-width: 100%;
+}
+.encadrement-vert .big-img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.encadrement-vert .small-img,
+.encadrement-vert .small-img-bg {
+    max-width: 100%;
+}

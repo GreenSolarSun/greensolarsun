@@ -1,0 +1,93 @@
+/* Popup "Découvrir qui nous sommes" - affichée après 45s */
+#popup-decouvrir-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9998;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+#popup-decouvrir-overlay.is-visible {
+    display: flex;
+}
+#popup-decouvrir-box {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 420px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    position: relative;
+    animation: popup-decouvrir-in 0.3s ease-out;
+}
+@keyframes popup-decouvrir-in {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+#popup-decouvrir-box .popup-decouvrir-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1.25rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+#popup-decouvrir-box .popup-decouvrir-close:hover {
+    background: rgba(0,0,0,0.8);
+}
+#popup-decouvrir-box .popup-decouvrir-title {
+    padding: 1.25rem 1.5rem 0.5rem;
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1a1a1a;
+}
+#popup-decouvrir-box .popup-decouvrir-video-wrap {
+    padding: 0 1rem 1.25rem;
+    position: relative;
+}
+#popup-decouvrir-box .popup-decouvrir-video-wrap iframe {
+    width: 100%;
+    min-height: 520px;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+}
+#popup-decouvrir-box .popup-decouvrir-link-wrap {
+    padding: 0 1rem 1.25rem;
+    text-align: center;
+}
+#popup-decouvrir-box .popup-decouvrir-link-wrap a {
+    color: #07bc4c;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+#popup-decouvrir-box .popup-decouvrir-link-wrap a:hover {
+    text-decoration: underline;
+}

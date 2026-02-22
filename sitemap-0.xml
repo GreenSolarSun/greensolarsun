@@ -7,12 +7,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://greensolarsun.com/index.html</loc>
-    <lastmod>2026-01-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://greensolarsun.com/a-propos.html</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -102,5 +96,42 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greensolarsun.com/blog/</loc>
+    <lastmod>2025-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://greensolarsun.com/blog/guide-installation-panneaux-solaires-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/prix-panneaux-solaires-marrakech-2025.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/autoconsommation-solaire-maroc-particuliers.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/aides-subventions-solaire-maroc-particuliers.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/rentabilite-panneaux-solaires-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/raccordement-electrique-maisons-hors-reseau-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/batterie-stockage-solaire-marrakech-particuliers.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/choisir-installateur-panneaux-solaires-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/puissance-panneaux-solaires-maison-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/one-maroc-autoconsommation-tout-savoir.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/production-solaire-marrakech-340-jours-soleil.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/devis-panneaux-solaires-gratuit-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/panneaux-solaires-appartement-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/installation-solaire-gu%C3%A9liz-daoudiate-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/maintenance-panneaux-solaires-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/garanties-panneaux-solaires-maroc.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/carport-photovoltaique-maison-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/panneaux-solaires-villa-riad-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/erreurs-eviter-installation-solaire-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/electricite-solaire-coupures-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/transition-energetique-maison-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/onduleur-solaire-marrakech-guide-particuliers.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/panneaux-monocristallins-polycristallins-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/chauffe-eau-solaire-marrakech-particuliers.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/recyclage-panneaux-solaires-maroc.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/duree-vie-panneaux-solaires-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/assurance-installation-solaire-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/climatisation-solaire-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/borne-recharge-ve-solaire-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/solaire-vs-groupe-electrogene-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://greensolarsun.com/blog/orientation-inclinaison-panneaux-marrakech.html</loc><lastmod>2025-02-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
 

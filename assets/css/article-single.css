@@ -1,0 +1,67 @@
+/* Design amélioré des pages articles individuels - Logo et mise en forme */
+.article-brand-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(10, 95, 74, 0.15);
+}
+.article-brand-header .article-logo {
+  max-width: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+.article-brand-header .article-meta {
+  flex: 1;
+}
+.article-brand-header .article-meta .breadcrumb-article {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+.article-brand-header .article-meta .breadcrumb-article a {
+  color: var(--color-deepTealGreen, #0a5f4a);
+  text-decoration: none;
+}
+.article-brand-header .article-meta .breadcrumb-article a:hover {
+  text-decoration: underline;
+}
+.article-brand-header .article-meta h1 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+@media (min-width: 768px) {
+  .article-brand-header .article-meta h1 { font-size: 2rem; }
+}
+.article-content-block {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.article-content-block h2 {
+  color: var(--color-deepTealGreen, #0a5f4a);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+.article-content-block h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.service-details .article-brand-header + .row .col-lg-8 article {
+  position: relative;
+}
+
+/* Liens dans le contenu des articles - vert encadrement (#07bc4c) */
+.service-details article p a,
+.service-details article .text-para-3 a {
+  color: #07bc4c;
+}
+.service-details article p a:hover,
+.service-details article .text-para-3 a:hover {
+  opacity: 0.9;
+}

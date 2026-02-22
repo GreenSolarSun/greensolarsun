@@ -1,0 +1,63 @@
+/* Bannière vidéo pour la page Blog - même style que l'index */
+.blog-banner-section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+}
+.blog-banner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 450px;
+}
+.blog-banner-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  pointer-events: none;
+}
+.blog-banner-overlay {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.blog-banner-overlay h2 {
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  margin-bottom: 1rem;
+}
+.blog-banner-overlay .breadcum-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  color: rgba(255,255,255,0.95);
+}
+.blog-banner-overlay .breadcum-list ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.blog-banner-overlay .breadcum-list ul a:hover {
+  text-decoration: underline;
+}
+.blog-banner-cta {
+  margin-top: 1.5rem;
+}

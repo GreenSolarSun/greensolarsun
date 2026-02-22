@@ -1,4 +1,4 @@
-/* Bouton sticky "Obtenir un Devis" */
+/* Bouton sticky "Obtenir un Devis" (+15% taille) */
 .sticky-quote-button {
     position: fixed;
     bottom: 50px;
@@ -9,12 +9,12 @@
     justify-content: center;
     background: linear-gradient(135deg, #07bc4c 0%, #06a03d 100%);
     color: #ffffff;
-    padding: 14px 24px;
+    padding: 16px 28px;
     border-radius: 50px;
     box-shadow: 0 4px 15px rgba(7, 188, 76, 0.4);
     text-decoration: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
     transition: all 0.3s ease;
     white-space: nowrap;
     border: none;
@@ -31,8 +31,8 @@
 }
 
 .sticky-quote-button i {
-    margin-left: 8px;
-    font-size: 16px;
+    margin-left: 9px;
+    font-size: 18px;
     transition: transform 0.3s ease;
 }
 
@@ -46,8 +46,8 @@
         bottom: 20px; /* Aligné au même niveau que le bouton WhatsApp */
         right: 15px;
         left: auto; /* S'assure que left n'interfère pas */
-        padding: 12px 20px;
-        font-size: 14px;
+        padding: 14px 23px;
+        font-size: 16px;
     }
 }
 
@@ -60,5 +60,27 @@
     .scroll-bottom-top.v1 {
         bottom: 110px !important;
     }
+}
+
+/* Bouton sticky WhatsApp (+15% taille) - surcharge les styles inline */
+#call .float {
+    width: 69px !important;
+    height: 69px !important;
+}
+#call .ul .li a,
+#call .ul .li .whats {
+    width: 69px !important;
+    height: 69px !important;
+}
+#call .my-float {
+    font-size: 28px !important;
+    margin-top: 21px !important;
+}
+#call .ul {
+    bottom: 92px !important;
+}
+#call .label-container {
+    bottom: 55px !important;
+    left: 121px !important;
 }
 
