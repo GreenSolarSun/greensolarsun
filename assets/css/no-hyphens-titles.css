@@ -1,0 +1,15 @@
+/*
+ * Désactive la césure (trait d'union) sur les titres - tout le site, mobile inclus.
+ * Évite les mots coupés avec "-" en fin de ligne sur mobile.
+ */
+h1, h2, h3, h4, h5, h6,
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6,
+.section-title h2, .section-title h6, .section-title-center h2, .section-title-center h6,
+.hero-content h1, .hero-content h2, .blog-banner-overlay h1, .breadcum-list h1, .breadcum-list h2,
+.blog-card-content h3, .blog-card-content h6, .service-card h6, .footer__widget-title,
+.sidebar__widget-title, .accordion-btn {
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
+}

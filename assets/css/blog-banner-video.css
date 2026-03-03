@@ -36,8 +36,9 @@
   padding: 4rem 1rem;
   text-align: center;
 }
+.blog-banner-overlay h1,
 .blog-banner-overlay h2 {
-  color: #fff;
+  color: #fff !important;
   text-shadow: 0 2px 12px rgba(0,0,0,0.4);
   margin-bottom: 1rem;
 }

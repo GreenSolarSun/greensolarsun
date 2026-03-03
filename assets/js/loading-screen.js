@@ -1,5 +1,5 @@
 /**
- * Loading Screen Script Professional - Green Solar Sun
+ * Loading Screen Script Professional - GreenSolarSun
  * Gère l'affichage et la disparition de l'écran de chargement
  * Animation plus longue pour une meilleure visibilité
  */
